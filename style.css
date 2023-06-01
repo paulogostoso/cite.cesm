@@ -47,3 +47,24 @@ texto-lista {
     font-size: 20px;
     margin: 20px;
 }
+
+.quem-somos {
+    background-color: rgba(red, green, blue, alpha);
+}
+.equipe {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: black;
+}
+
+.equipe.escola{
+    display: flex ;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+.equipe-colunas {
+    display: contents;
+    list-style-type: none;
+    text-align: center;
+}
